@@ -1,0 +1,36 @@
+﻿  stack.cpp
+D:\Codes\Stack\stack.cpp(45,6): error C2365: 'Stack::top': redefinition; previous definition was 'data member'
+D:\Codes\Stack\stack.cpp(6): message : see declaration of 'Stack::top'
+D:\Codes\Stack\stack.cpp(47,3): error C2059: syntax error: 'if'
+D:\Codes\Stack\stack.cpp(48,3): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+D:\Codes\Stack\stack.cpp(51,3): error C2059: syntax error: 'else'
+D:\Codes\Stack\stack.cpp(52,3): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+D:\Codes\Stack\stack.cpp(56,2): error C2628: 'Stack' followed by 'bool' is illegal (did you forget a ';'?)
+D:\Codes\Stack\stack.cpp(58,10): error C2065: 'top': undeclared identifier
+D:\Codes\Stack\stack.cpp(32,7): error C3861: 'isFull': identifier not found
+D:\Codes\Stack\stack.cpp(34,4): error C3861: 'resize': identifier not found
+D:\Codes\Stack\stack.cpp(40,1): error C2678: binary '!': no operator found which takes a left-hand operand of type 'Stack' (or there is no acceptable conversion)
+D:\Codes\Stack\stack.cpp(40,1): message : could be 'built-in C++ operator!(bool)'
+D:\Codes\Stack\stack.cpp(40,1): message : while trying to match the argument list '(Stack)'
+D:\Codes\Stack\stack.cpp(40,7): error C2088: '!': illegal for class
+D:\Codes\Stack\stack.cpp(62,10): error C2065: 'top': undeclared identifier
+D:\Codes\Stack\stack.cpp(62,25): error C2563: mismatch in formal parameter list
+D:\Codes\Stack\stack.cpp(66,31): error C2563: mismatch in formal parameter list
+D:\Codes\Stack\stack.cpp(66,31): error C2568: '*': unable to resolve function overload
+D:\Codes\Stack\stack.cpp(66,31): message : could be 'size_t std::size(const _Ty (&)[_Size]) noexcept'
+D:\Codes\Stack\stack.cpp(66,31): message : or       'unknown-type std::size(const _Container &)'
+D:\Codes\Stack\stack.cpp(66,32): error C3078: array size must be specified in new expressions without an initializer
+D:\Codes\Stack\stack.cpp(67,27): error C2563: mismatch in formal parameter list
+D:\Codes\Stack\stack.cpp(67,27): error C2568: '<': unable to resolve function overload
+D:\Codes\Stack\stack.cpp(67,27): message : could be 'size_t std::size(const _Ty (&)[_Size]) noexcept'
+D:\Codes\Stack\stack.cpp(67,27): message : or       'unknown-type std::size(const _Container &)'
+D:\Codes\Stack\stack.cpp(69,14): error C2065: 'stack': undeclared identifier
+D:\Codes\Stack\stack.cpp(71,12): error C2065: 'stack': undeclared identifier
+D:\Codes\Stack\stack.cpp(71,17): error C2541: 'delete': cannot delete objects that are not pointers
+D:\Codes\Stack\stack.cpp(72,3): error C2065: 'stack': undeclared identifier
+D:\Codes\Stack\stack.cpp(73,18): error C2563: mismatch in formal parameter list
+D:\Codes\Stack\stack.cpp(73,18): error C2568: '*': unable to resolve function overload
+D:\Codes\Stack\stack.cpp(73,18): message : could be 'size_t std::size(const _Ty (&)[_Size]) noexcept'
+D:\Codes\Stack\stack.cpp(73,18): message : or       'unknown-type std::size(const _Container &)'
+D:\Codes\Stack\stack.cpp(75,1): error C2059: syntax error: '}'
+D:\Codes\Stack\stack.cpp(75,1): error C2143: syntax error: missing ';' before '}'
